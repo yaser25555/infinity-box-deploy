@@ -1,0 +1,35 @@
+{
+  "name": "infinity-box",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server/index.ts",
+  "scripts": {
+    "start": "tsx server/index.ts",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "drizzle-orm": "^0.29.5",
+    "drizzle-zod": "^0.5.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "ws": "^8.18.3",
+    "zod": "^3.25.67",
+    "tsx": "^4.6.2",
+    "drizzle-kit": "^0.20.18",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0",
+    "@types/express": "^5.0.3",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/pg": "^8.10.9",
+    "@types/ws": "^8.5.10",
+    "@types/bcryptjs": "^2.4.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
